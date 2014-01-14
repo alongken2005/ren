@@ -1,0 +1,11 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$config['smtp']['useragent']	= 'childroad';
+$config['smtp']['protocol']		= 'smtp';
+$config['smtp']['charset']		= 'utf-8';
+$config['smtp']['mailtype']		= 'html';
+$config['smtp']['smtp_host']	= 'ssl://smtp.gmail.com';
+$config['smtp']['smtp_user']	= 'ticket@childroad.com';
+$config['smtp']['smtp_pass']	= 'croad123';
+$config['smtp']['smtp_port']	= '465';
+$config['smtp']['newline']		= "\r\n";
+$config['smtp']['crlf']			= "\r\n";
